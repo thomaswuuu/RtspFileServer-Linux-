@@ -1,0 +1,3 @@
+g++ -o RtspServer Main.cpp Rtsp.cpp Rtp.cpp Rtsp.h Rtp.h -lpthread
+或使用Makefile
+若有出現warning是因為有函式不宜用(deprecated),但依舊可以執行
